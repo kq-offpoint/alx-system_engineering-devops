@@ -1,2 +1,11 @@
 #!/bin/bash
-mkdir -p /temp/my_first_directory
+
+#creating the directory
+mkdir /temp/my_first_directory
+
+#checking if the directory was created 
+if [ -d /temp/my_first_directory ]; then
+	echo "Directory /temp/my_first_directory was created successfully."
+else 
+	echo "failed to create directory /temp/my_first_directory."
+fi
