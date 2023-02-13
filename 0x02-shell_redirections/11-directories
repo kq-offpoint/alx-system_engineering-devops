@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -type d | grep -v -e '^.$' -e '^..$' | wc -l
